@@ -1,0 +1,13 @@
+{
+    "name": "Suite",
+    "alias": "suite",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Suite\\Providers\\SuiteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Vessel",
+    "alias": "vessel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Vessel\\Providers\\VesselServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

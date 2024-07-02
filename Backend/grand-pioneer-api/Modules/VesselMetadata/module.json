@@ -1,0 +1,13 @@
+{
+    "name": "VesselMetadata",
+    "alias": "vesselmetadata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\VesselMetadata\\Providers\\VesselMetadataServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

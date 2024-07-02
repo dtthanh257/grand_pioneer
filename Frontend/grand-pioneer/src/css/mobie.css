@@ -1,0 +1,170 @@
+/* For mobie css */
+@media only screen and (max-width: 480px) {
+  .home-booking {
+    display: none !important;
+  }
+  .page-logo {
+    width: 120px;
+  }
+  .page-100 {
+    padding: 0 20px !important;
+  }
+  .page-heading__title {
+    font-size: 8vw;
+    margin-top: 40px;
+  }
+  .page-heading__descr {
+    font-size: 3.4vw;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .home-booking-mb {
+    margin-top: 20px;
+    padding: 0 20px;
+    gap: 40px !important;
+  }
+  .home-booking-mb label {
+    color: var(--blue-color);
+    font-size: 3vw !important;
+  }
+  .home-booking-mb .combo-box {
+    border-bottom: 1.5px solid var(--blue-color);
+  }
+  .page-title {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .card-nor {
+    display: none !important;
+  }
+  .card-mobie {
+    display: flex !important;
+    height: 66%;
+  }
+  .card-mobie .card-title {
+    font-size: 5vw !important;
+  }
+  .card-mobie .blue {
+    font-size: 4vw;
+  }
+  .card-mobie .card-button {
+    height: 30%;
+    align-items: center;
+  }
+  .card-mobie .button {
+    letter-spacing: 0.8vw;
+  }
+  .slide-mobie {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    margin-bottom: 12%;
+    margin-top: 5%;
+  }
+  .card-heading__1 {
+    font-family: "Gotham";
+  }
+  .card-img {
+    aspect-ratio: 8/5;
+  }
+  .page-mobie-btn {
+    display: flex !important;
+  }
+  .page-nor-btn {
+    display: none !important;
+  }
+  .mobie {
+    display: flex !important;
+  }
+  .nor {
+    display: none !important;
+  }
+  .slide-title {
+    font-size: 8vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-name {
+    font-size: 8vw;
+  }
+  .slide-content {
+    width: 100% !important;
+  }
+  .suites-img {
+    height: 25% !important;
+    width: 100% !important;
+    aspect-ratio: 3/1;
+    flex: none;
+  }
+  .service-descr {
+    font-size: 2.8vw;
+  }
+  .card-title {
+    font-size: 5vw;
+  }
+  .card-descr {
+    font-size: 3.4vw;
+  }
+  .card-button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .innovation-contain {
+    align-items: center;
+  }
+  .innovation-desc {
+    font-size: 3.7vw;
+    width: 90%;
+    text-align: center;
+  }
+  .innovation {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+  }
+  .innovation-contain {
+    height: 100%;
+  }
+  .page-name {
+    font-size: 8vw;
+  }
+  .travel-descr {
+    font-size: 2.8vw;
+    text-align: center;
+  }
+  .guest-content {
+    font-size: 3vw !important;
+  }
+  .page-70 {
+    padding: 0 20px !important;
+  }
+  .footer-mobie .footer-title {
+    font-size: 3.4vw;
+  }
+  .footer-mobie .footer-list {
+    font-size: 3vw;
+  }
+  .icon {
+    height: 4vw;
+    width: 4vw;
+  }
+  .footer input {
+    width: 150% !important;
+    height: 100% !important;
+    font-size: 2vw !important;
+  }
+  .enter-arrow {
+    height: 3vw !important;
+    width: 3vw !important;
+    top: 50% !important;
+    right: -50%;
+  }
+}
+.mobie {
+  display: none;
+}
+.home-booking-mb {
+  display: none !important;
+}

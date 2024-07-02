@@ -1,0 +1,29 @@
+.card {
+  background-color: #f5f5f5;
+  /* aspect-ratio: 3/8 !important; */
+  min-height: fit-content !important;
+}
+.card-img {
+  width: 100%;
+  aspect-ratio: 15/8;
+}
+.card-title,
+.card-heading__1 {
+  font-family: "Gotham";
+  font-weight: 700;
+}
+.card-descr {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-family: "Gotham";
+  font-weight: 400;
+  max-height: 15%;
+  overflow: hidden;
+}
+/* .card-button {
+  margin: 0 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+} */

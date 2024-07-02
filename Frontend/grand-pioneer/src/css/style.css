@@ -1,0 +1,231 @@
+@import url(./home.css);
+@import url(./combobox.css);
+@import url(./card.css);
+@import url(./button.css);
+@import url(./footer.css);
+@import url(./mobie.css);
+@import url(./menu.css);
+@import url(./voyage-search.css);
+@import url(./voyage-view.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham";
+  /* overflow-x: hidden; */
+}
+:root {
+  --blue-color: #15395a;
+  --yellow-color: #e4b587;
+  --white-color: #ffffff;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-Black.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-BlackItalic.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-MediumItalic.otf") format("otf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("/src/assets/fonts/Gotham/Gotham-BoldItalic.otf") format("otf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "Gotham" !important;
+}
+
+.page-100 {
+  height: 100vh;
+  width: 100%;
+  padding: 0 46px;
+}
+.page-70 {
+  height: 50vh;
+  width: 100%;
+  padding: 0 46px;
+}
+.page-65 {
+  height: 65vh;
+  width: 100%;
+  padding: 0 20px;
+}
+.page-35 {
+  height: 35vh;
+  width: 100%;
+  padding: 0 20px;
+}
+.page-contain {
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  height: 100vh;
+}
+.blur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(75, 75, 75, 0.56);
+}
+.bg-contain {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+}
+.bg-cover {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+.flex-r-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.saol-light {
+  font-family: "Gotham";
+}
+.saol-light-i {
+  font-family: "Gotham";
+  font-style: italic;
+}
+.white {
+  color: var(--white-color);
+}
+.blue {
+  color: var(--blue-color);
+}
+.yellow {
+  color: var(--yellow-color);
+}
+.w-100 {
+  width: 100%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-40 {
+  width: 40%;
+}
+.h-100 {
+  height: 100%;
+}
+.h-70 {
+  height: 70%;
+}
+.h-66 {
+  height: 66%;
+}
+.gap-4 {
+  gap: 4%;
+}
+.gap-10 {
+  gap: 10%;
+}
+.gap-3vw {
+  gap: 3vw;
+}
+.gap-8px {
+  gap: 8px;
+}
+.mg-4 {
+  margin: 4vw 0;
+}
+.mg-8 {
+  margin: 8vw 0;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* Chia grid thành 12 cột */
+}
+.grid-span__10 {
+  grid-column: 2 / span 10;
+}
+.guest-content {
+  font-family: "Gotham";
+  font-style: italic;
+  font-size: 1.5vw;
+  width: 80%;
+  text-align: center;
+}
+.guest-name {
+  font-family: "Gotham";
+  font-weight: 700;
+}
+.card-mobie {
+  display: none;
+}
+.slide-mobie {
+  display: none;
+}
+.page-mobie-btn {
+  display: none;
+}
+
+.text-wrap {
+  text-wrap: wrap !important;
+}
+
+@media (min-width: 1024px) {
+  .body-custom {
+    width: calc(100% - 100px) !important;
+    margin: 0 auto 50px !important;
+  }
+}
+.p-46 {
+  padding: 0 46px;
+}
+.border-bottom-blue {
+  border-bottom: 1.5px solid var(--blue-color);
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Voyage",
+    "alias": "voyage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Voyage\\Providers\\VoyageServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

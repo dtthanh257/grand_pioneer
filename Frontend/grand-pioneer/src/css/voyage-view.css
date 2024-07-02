@@ -1,0 +1,32 @@
+.voyage-date {
+  background-image: url(./../assets/voyage-date.png);
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+.voyage-night {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url(./../assets/voyage-night.png);
+}
+.voyage-vessel {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url(./../assets/voyage-vessel.png);
+}
+.voyage-embark {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url(./../assets/voyage-embark.png);
+}
+.voyage-debark {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url(./../assets/voyage-debark.png);
+}
+.voyage-fare {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url(./../assets/voyage-fares.png);
+}
+.voyage-thumnail {
+}

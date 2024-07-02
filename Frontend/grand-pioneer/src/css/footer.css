@@ -1,0 +1,68 @@
+.footer {
+  background-color: var(--blue-color);
+  padding-bottom: 6vw;
+}
+.footer .flex-r {
+  justify-content: center;
+}
+.footer .flex-r {
+  font-family: "Gotham";
+}
+.footer-title {
+  font-size: 1.2vw;
+  margin-bottom: 2.4vw;
+  font-family: "Gotham";
+}
+.footer-list {
+  margin-bottom: 1.5vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+}
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mobie-icon {
+  background-image: url(./../assets/mobie-icon.png);
+}
+.phone-icon {
+  background-image: url(./../assets/phone-icon.png);
+}
+.mail-icon {
+  background-image: url(./../assets/mail-icon.png);
+}
+.tripod-icon {
+  background-image: url(./../assets/tripod-icon.png);
+}
+.fb-icon {
+  background-image: url(./../assets/fb-icon.png);
+}
+.tiktok-icon {
+  background-image: url(./../assets/tiktok-icon.png);
+}
+.ytb-icon {
+  background-image: url(./../assets/ytb-icon.png);
+}
+.ins-icon {
+  background-image: url(./../assets/ins-icon.png);
+}
+.footer .flex-c input {
+  border-radius: none;
+  width: 22vw;
+  height: 3.5vw;
+  border: none;
+  padding: 8px;
+  font-size: 1vw;
+}
+.enter-arrow {
+  background-image: url(./../assets/chevon-right.png);
+  position: absolute;
+  right: 0;
+  /* transform: translateX(-50%); */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

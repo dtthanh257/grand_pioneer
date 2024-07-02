@@ -1,0 +1,15 @@
+.grid-otp,
+.list-otp {
+  font-size: 12px;
+  cursor: pointer;
+}
+/* .grid-otp-icon {
+  height: 20px;
+  width: 20px;
+  background-image: url(./../assets/gridotp.png);
+}
+.list-otp-icon {
+  height: 20px;
+  width: 20px;
+  background-image: url(./../assets/listotp.png);
+} */

@@ -1,0 +1,114 @@
+.page-heading__title {
+  font-size: 3.4vw;
+}
+.page-heading__descr {
+  font-family: "Gotham";
+  width: 40%;
+  text-align: center;
+}
+.page-title {
+  font-size: 1.8vw;
+  font-family: "Gotham";
+  padding: 28px 0;
+}
+.home-booking {
+  margin-top: auto;
+  width: 90%;
+}
+.suites-img {
+  /* background-image: url(./../assets/suite-slide-1.png); */
+}
+.slide-title {
+  align-items: center;
+  justify-content: center;
+}
+.slide-title p,
+i {
+  white-space: pre-wrap;
+}
+.slide-name {
+  font-size: 3.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-content {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Gotham";
+  text-align: center;
+  font-size: 1vw;
+}
+.prevBtn {
+  background-image: url(./../assets/pre-icon.png);
+  height: 1.8vw;
+  min-width: 1.8vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.nextBtn {
+  background-image: url(./../assets/next-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.slide-move {
+  display: flex;
+  align-items: center;
+}
+.slide-counter {
+  font-family: "Gotham";
+  font-style: italic;
+  font-weight: 500;
+  word-spacing: 1vw;
+}
+.slide-move {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1vw;
+}
+
+.innovation-bg {
+}
+
+@media (min-width: 1280px) {
+  .innovation-bg {
+    background-image: url(./../assets/innovation-bg.png);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.innovation-desc {
+  font-family: "Gotham";
+  font-size: 1vw;
+  width: 35%;
+  text-align: start;
+}
+.innovation-contain {
+  height: 50%;
+  justify-content: space-around;
+}
+.page-name {
+  font-size: 3.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.travel-descr {
+  font-family: "Gotham";
+  font-size: 1.2vw;
+}
+
+.home {
+}

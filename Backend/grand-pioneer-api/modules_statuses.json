@@ -1,0 +1,11 @@
+{
+    "Vessel": true,
+    "VesselMetadata": true,
+    "Suite": true,
+    "SuiteDetail": true,
+    "SuiteMetadata": true,
+    "Voyage": true,
+    "Service": true,
+    "Post": true,
+    "Menu": true
+}

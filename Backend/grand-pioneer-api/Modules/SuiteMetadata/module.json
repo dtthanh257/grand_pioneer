@@ -1,0 +1,13 @@
+{
+    "name": "SuiteMetadata",
+    "alias": "suitemetadata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SuiteMetadata\\Providers\\SuiteMetadataServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
